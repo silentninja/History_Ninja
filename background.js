@@ -28,10 +28,10 @@ chrome.tabs.onUpdated.addListener(function(tabId, changeInfo) {
             localStorage.setItem("uid",uid);
                 localStorage.setItem("history","");
                 localStorage.setItem("historycount",0);
-                chrome.tabs.getCurrent(function(tab) {
-    chrome.tabs.remove(tab.id, function() { });
-});
-                alert("Dropbox account added successfully.");
+              
+    chrome.tabs.remove(tabs[0].id, function() { alert("Dropbox account added successfully.");});
+
+                
             }
             
             
