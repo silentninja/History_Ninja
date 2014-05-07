@@ -82,7 +82,7 @@ var yyyy = today.getFullYear();
              
                 console.log(xmlhttp.responseText);
 			}
-    xmlhttp.open( "PUT", "https://api-content.dropbox.com/1/files_put/dropbox/test.txt", true ); 
+    xmlhttp.open( "PUT", "https://api-content.dropbox.com/1/files_put/dropbox/historyninja.txt", true ); 
 
 
 			// Set the headers so the transfer works 
@@ -125,7 +125,7 @@ function getInfo()
             } 
 
 			// Open the connection 
-			xmlhttp.open( "GET", "https://api-content.dropbox.com/1/files/dropbox/test.txt", true ); 
+			xmlhttp.open( "GET", "https://api-content.dropbox.com/1/files/dropbox/historyninja.txt", true ); 
 
 
 			// Set the headers so the transfer works 
